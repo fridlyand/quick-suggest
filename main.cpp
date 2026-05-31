@@ -55,16 +55,19 @@ int main() {
     while (true) {
         cout << "===>" << endl;
         cout << "QUERY: ";
-        std::getline(cin, user_q);
+	if (!std::getline(cin, user_q)) {
+            break;
+        }
         helpers::trim(user_q);
+        if (user_q == "...") {
+            break;
+        }
         if (!helpers::filter(user_q)) {
             cout << "Sorry, bad input query, please try again ..." << endl;
             cout << "<===" << endl; // no standard 'defer' in c++ ...
             continue;
         }
-        if (user_q == "...") {
-            break;
-        }
+
         cout << "Processing request...";
         auto start = chrono::system_clock::now();
         string corr_q;
