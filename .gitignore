@@ -49,3 +49,8 @@ build/CMakeFiles/query_completion.dir/TST.cpp.o
 build/CMakeFiles/query_completion.dir/TST.cpp.o.d
 .vscode/settings.json
 .DS_Store
+
+# direct-compile artifacts (built in repo root, not under build/)
+query_completion
+TAGS
+unigrams.txt
