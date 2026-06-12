@@ -1,56 +1,10 @@
-build/cmake_install.cmake
-build/CMakeCache.txt
-build/Makefile
-build/query_completion
-build/query_logs.txt
-build/unigrams.txt
-build/CMakeFiles/cmake.check_cache
-build/CMakeFiles/CMakeConfigureLog.yaml
-build/CMakeFiles/CMakeDirectoryInformation.cmake
-build/CMakeFiles/InstallScripts.json
-build/CMakeFiles/Makefile.cmake
-build/CMakeFiles/Makefile2
-build/CMakeFiles/progress.marks
-build/CMakeFiles/TargetDirectories.txt
-build/CMakeFiles/4.0.3/CMakeCCompiler.cmake
-build/CMakeFiles/4.0.3/CMakeCXXCompiler.cmake
-build/CMakeFiles/4.0.3/CMakeDetermineCompilerABI_C.bin
-build/CMakeFiles/4.0.3/CMakeDetermineCompilerABI_CXX.bin
-build/CMakeFiles/4.0.3/CMakeSystem.cmake
-build/CMakeFiles/4.0.3/CompilerIdC/a.out
-build/CMakeFiles/4.0.3/CompilerIdC/apple-sdk.c
-build/CMakeFiles/4.0.3/CompilerIdC/CMakeCCompilerId.c
-build/CMakeFiles/4.0.3/CompilerIdCXX/a.out
-build/CMakeFiles/4.0.3/CompilerIdCXX/apple-sdk.cpp
-build/CMakeFiles/4.0.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
-build/CMakeFiles/query_completion.dir/build.make
-build/CMakeFiles/query_completion.dir/cmake_clean.cmake
-build/CMakeFiles/query_completion.dir/compiler_depend.internal
-build/CMakeFiles/query_completion.dir/compiler_depend.make
-build/CMakeFiles/query_completion.dir/compiler_depend.ts
-build/CMakeFiles/query_completion.dir/depend.make
-build/CMakeFiles/query_completion.dir/DependInfo.cmake
-build/CMakeFiles/query_completion.dir/flags.make
-build/CMakeFiles/query_completion.dir/Helpers.cpp.o
-build/CMakeFiles/query_completion.dir/Helpers.cpp.o.d
-build/CMakeFiles/query_completion.dir/link.txt
-build/CMakeFiles/query_completion.dir/main.cpp.o
-build/CMakeFiles/query_completion.dir/main.cpp.o.d
-build/CMakeFiles/query_completion.dir/progress.make
-build/CMakeFiles/query_completion.dir/Query.cpp.o
-build/CMakeFiles/query_completion.dir/Query.cpp.o.d
-build/CMakeFiles/query_completion.dir/SpellCorrector.cpp.o
-build/CMakeFiles/query_completion.dir/SpellCorrector.cpp.o.d
-build/CMakeFiles/query_completion.dir/Tests.cpp.o
-build/CMakeFiles/query_completion.dir/Tests.cpp.o.d
-build/CMakeFiles/query_completion.dir/Trie.cpp.o
-build/CMakeFiles/query_completion.dir/Trie.cpp.o.d
-build/CMakeFiles/query_completion.dir/TST.cpp.o
-build/CMakeFiles/query_completion.dir/TST.cpp.o.d
-.vscode/settings.json
-.DS_Store
+# build output
+build/
+cmake-build-*/
 
-# direct-compile artifacts (built in repo root, not under build/)
-query_completion
-TAGS
+# generated at runtime
 unigrams.txt
+
+# IDE
+.vs/
+.idea/
