@@ -111,7 +111,7 @@ vector<string> Query::suggest(string query/*, string& corr_q*/) {
 void Query::buildCache() {
     for (auto count = 0; count < cache.size(); ++count) {
         if (count) {
-            cache[count] = log.keysWithPrefix({static_cast<int>('a') + (count - 1)});
+            cache[count] = log.keysWithPrefix(string(1, static_cast<char>('a' + count - 1)));
         } else {
             cache[count] = log.keys();
         }

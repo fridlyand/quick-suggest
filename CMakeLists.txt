@@ -1,6 +1,7 @@
-project(query_completion)
+cmake_minimum_required(VERSION 3.10)
+project(query_completion CXX)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wno-narrowing")
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(SOURCE_FILES main.cpp)
-add_executable(query_completion ${SOURCE_FILES} Trie.h Trie.cpp TST.h TST.cpp Tests.h Tests.cpp Query.cpp Query.h Helpers.h Helpers.cpp SpellCorrector.cpp SpellCorrector.h)
+add_executable(query_completion main.cpp Trie.cpp TST.cpp Tests.cpp Query.cpp Helpers.cpp SpellCorrector.cpp)
